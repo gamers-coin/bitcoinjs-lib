@@ -35,6 +35,17 @@ module.exports = {
     wif: 0xb0,
     dustThreshold: 0 // https://github.com/litecoin-project/litecoin/blob/v0.8.7.2/src/main.cpp#L360-L365
   },
+  gamecredits: {
+    messagePrefix: '\x19Gamecredits Signed Message:\n',
+    bip32: {
+      public: 0x019da462,
+      private: 0x019d9cfe
+    },
+    pubKeyHash: 0x26,
+    scriptHash: 0x05,
+    wif: 0xA6,
+    dustThreshold: 0
+  },
   dogecoin: {
     messagePrefix: '\x19Dogecoin Signed Message:\n',
     bip32: {
